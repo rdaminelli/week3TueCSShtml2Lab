@@ -1,0 +1,49 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #d1d1d1;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: steelblue;
+}
+.stripe{
+    height: 30vh;
+}
+.stripe1 {
+    background-color: goldenrod;
+}
+
+.stripe2 {
+    background-color: orange;
+}
+
+.stripe3 {
+    background-color:firebrick;
+}
+
+.stripe4 {
+    background-color:crimson; 
+}
+
+.question-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.question-container button {
+    height: 75px;
+    width: 75px;
+    background-color: navy;
+    color: white;
+    border-radius: 50%;
+    font-size: 45px;
+}
